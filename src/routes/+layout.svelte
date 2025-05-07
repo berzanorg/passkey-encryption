@@ -6,8 +6,8 @@
   const title = 'Passkey Encryption'
   const description = 'Super secure data encryption using face ID.'
   const url = 'https://passkey-encryption.pages.dev'
-  const themeColor = '#ffffff'
-  const colorScheme = 'only light'
+  const themeColor = '#000000'
+  const colorScheme = 'only dark'
   const keywords = ['passkey', 'encryption', 'decryption', 'prf extension', 'secure']
   const twitter = '@berzanorg'
   const author = 'Berzan'
