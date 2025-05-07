@@ -16,9 +16,20 @@
 
 body {
   @apply flex flex-col h-svh;
-  @apply bg-black text-white;
+  @apply bg-[#222222] text-white;
+  touch-action: pan-y;
 }
 
 body > div {
   @apply flex flex-col flex-1 items-center;
+  @apply gap-4;
+}
+
+input {
+  @apply bg-[#181818] h-11 px-3 rounded-md outline-none border border-[#333333] cursor-text;
+}
+
+button {
+  @apply flex items-center justify-center gap-2 font-semibold;
+  @apply bg-[#333333] h-11 px-3 rounded-md cursor-pointer disabled:cursor-text;
 }

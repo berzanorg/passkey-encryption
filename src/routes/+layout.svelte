@@ -6,11 +6,12 @@
   const title = 'Passkey Encryption'
   const description = 'Super secure data encryption using face ID.'
   const url = 'https://passkey-encryption.pages.dev'
-  const themeColor = '#000000'
+  const themeColor = '#222222'
   const colorScheme = 'only dark'
   const keywords = ['passkey', 'encryption', 'decryption', 'prf extension', 'secure']
   const twitter = '@berzanorg'
   const author = 'Berzan'
+  const image = 'preview.webp'
 </script>
 
 <svelte:head>
@@ -33,6 +34,8 @@
   <meta property="og:url" content={url} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
+  <meta property="og:image" content="{url}/{image}" />
+  <meta property="twitter:image" content="{url}/{image}" />
 </svelte:head>
 
 {@render children()}
