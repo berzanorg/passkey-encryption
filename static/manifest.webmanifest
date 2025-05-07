@@ -4,8 +4,8 @@
   "description": "Super secure data encryption using face ID.",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#222222",
+  "background_color": "#222222",
   "categories": ["passkey", "encryption", "decryption"],
   "icons": [
     {
