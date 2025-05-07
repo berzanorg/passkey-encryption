@@ -16,10 +16,9 @@
 <svelte:head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- <link rel="manifest" href="/manifest.webmanifest"> -->
-  <!-- <link rel="icon" href="/favicon.ico" sizes="256x256"> -->
-  <!-- <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
-  <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <meta name="theme-color" content={themeColor} />
   <meta name="color-scheme" content={colorScheme} />
   <meta name="keywords" content={keywords.join(', ')} />
@@ -34,8 +33,6 @@
   <meta property="og:url" content={url} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <!-- <meta property="og:image" content={image} /> -->
-  <!-- <meta name="twitter:image" content={image} /> -->
 </svelte:head>
 
 {@render children()}
